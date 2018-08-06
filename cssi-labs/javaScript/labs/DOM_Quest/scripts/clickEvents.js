@@ -13,3 +13,7 @@
 // limitations under the License.
 
 console.log("Running Click Events Script");
+box1.addEventListener('click', (e) => {
+ document.getElementById('box2').style.backgroundColor='red';
+ document.getElementById('box3').style.backgroundColor='red';
+})
